@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paraBankData>
+	<link>https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC</link>
+	<firstname>Automation</firstname>
+	<lastname>Tester</lastname>
+	<street>31/2, Vivekanandhar Colony</street>
+	<city>Chennai</city>
+	<state>TamilNadu</state>
+	<zipcode>600 032</zipcode>
+	<ph.no>9876543210</ph.no>
+	<ssn>12345</ssn>
+	<username>Automation Tester1</username>
+	<password>sdetatzuci</password>
+	<repeatpass>sdetatzuci</repeatpass>
+</paraBankData>

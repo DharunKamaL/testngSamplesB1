@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objRep>
+	<username>//input[@name='username']</username>
+	<password>//input[@name='password']</password>
+	<loginBtn>//button[@type='submit']</loginBtn>
+</objRep>
