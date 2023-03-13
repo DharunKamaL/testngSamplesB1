@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -25,7 +26,9 @@ public class SampleOneTest {
 	public void setup(String strBrowser) {
 		if (strBrowser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver = new ChromeDriver(options);
 		}
 		driver.manage().window().maximize();
 	}
@@ -69,4 +72,5 @@ public class SampleOneTest {
 	public void teardown() {
 		driver.close();
 	}
+	
 }
