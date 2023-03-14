@@ -30,6 +30,11 @@ public class SampleOneTest {
 			options.addArguments("--remote-allow-origins=*");
 			driver = new ChromeDriver(options);
 		}
+		
+		else if(strBrowser.equalsIgnoreCase("edge")){
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		}
 		driver.manage().window().maximize();
 	}
 	
