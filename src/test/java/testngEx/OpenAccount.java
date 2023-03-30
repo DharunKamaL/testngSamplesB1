@@ -98,8 +98,7 @@ public class OpenAccount {
 //  		if(bal) {
 //  			System.out.println("Balance displayed...");
 //  		}
-  		//Assert.assertEquals(driver.findElement(By.cssSelector("td[id='balance']")), "$3900.00");
-  		//driver.findElement(By.cssSelector("td[id='balance']"));
+  		
   	}
   	
 	
